@@ -1,0 +1,203 @@
+html, body {height:100%;} 
+body {
+	margin:0; 
+	padding:0;
+	background:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 100;
+	text-align:center;	
+	background-color: rgb(0, 0, 41);
+	}
+h1, h2, h4 { 	
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color:rgb(255, 255, 255);
+	font-weight: 500;
+	}
+h2 {font-size:26px;
+	color: rgb(255, 255, 255);
+	font-weight: 100;
+}	
+h4 {font-size:18px;
+	text-align: center;
+}
+#tudo{ 
+	width:100%;
+	position:relative;  /*Contexto de posicionamento */
+	background:#fff;
+	margin:0;
+	text-align:left;
+	min-height:100%;
+	background-color: rgb(31, 31, 58);
+	margin-top: 0;
+	}
+* html #tudo {height: 100%;}
+#topo{
+	background-image: url(imagens/musica.jpg);
+	width:100%;
+	height:220px;
+	text-align:center;
+	opacity: 0.8;
+	margin: -1px;
+	color: white;
+	border-bottom: 2px solid white;
+	position: relative;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+#pricipal {
+	margin-left: 20px;
+}
+nav{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background:#61b4a9;
+	color: black;
+	}
+#rodape {
+	background:#61b4a9;
+	width:100%;
+	height:37px;
+	position: absolute;
+	bottom: 0px;  
+	text-align:center;
+	border-top: 1px solid white;
+	}
+#rodape p {
+	font-weight:400;
+	font-size: 23px;
+	color:rgb(0, 1, 59);
+	-webkit-text-stroke-width: 0px;
+	margin-top: 0px;
+	}
+ul {
+	width:90%;
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-size: 24px;
+}
+ul li {
+	display: inline; 
+ }
+ li{
+	border-right:1px solid rgba(255, 255, 255, 0.74);
+	padding-left: 5px;
+	padding-right: 2px;
+ }
+ul li a, ul li a:visited {
+	border-left: 3px;
+	border-left: white;
+	font:20px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	display: inline-block;
+	color:rgb(0, 1, 59);
+	-webkit-text-stroke-width: 0px;
+	text-decoration: none;
+}
+ul li a:hover {
+	color:rgb(255, 255, 255);
+	transition: 0.5s;
+	}
+table {
+	width:100%;
+	border: 3px solid white;
+	border-radius: 10px;
+	height: auto;
+}
+td{
+	font-size: 15px;
+	height: auto;
+}
+.td_r {
+	text-align:right;
+	max-width: 40ch;
+	word-wrap: break-word;
+}
+.td_l {
+	text-align:left;
+	max-width: 40ch;
+	word-wrap: break-word;
+}
+.td_c {
+	text-align:center;
+}
+.tr_div {
+	background-color:rgb(255, 255, 255);
+	height: 2px;	
+}
+.clear {clear:both;}
+#nav li.um {
+	text-align:center;
+}
+#pizza {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+#h2_titulo {
+	font-size: 100px;
+	-webkit-text-stroke-width: 0;
+	font-weight: 100;
+	margin-bottom: 0;
+	position: relative;
+}
+#h4_abaixo_titulo {
+	font-size: 20px;
+	-webkit-text-stroke-width: 0;
+	font-weight: 400;
+	margin-top: 0;
+	border-bottom: 1px solid white;
+	position: relative;
+}
+#h1_topo {
+	padding-top: 40px;
+	font-size: 50px;
+}
+#h2_topo{
+	margin-top: -10px;
+	font-size: 35px;
+	font-weight: 700;
+}
+.h2_resto{
+	padding-left: 30px;
+	font-size: 40px;
+}
+.p_resto{
+	width: 80%;
+	font-size: 25px;
+	position: justify;
+	margin-left: 50px;
+}
+#img_dancarinos{
+	margin-left: 400PX;
+	border-radius: 20PX;
+}
+textarea{
+	width: 100ch;
+	height: 40px;
+	border: 2px solid #61b4a9;
+	border-radius: 10px;
+}
+input{
+	border: 2px solid #61b4a9;
+	border-radius: 10px;
+}
+.h2_add{
+	margin-left: 20px;
+	font-size: 30px;
+}
+.input_envia{
+	font-size: 17px;
+	background-color: #61b4a9;
+	color: rgb(0, 1, 59);
+}
+.input_envia:hover{
+	color: white;
+	cursor: pointer;
+	transition: 0.5s;
+}
